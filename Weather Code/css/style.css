@@ -19,3 +19,46 @@ img{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+html{
+  display: flex;
+}
+.current{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sevenDayForecast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  gap: 1rem; /* Optional: space between days */
+}
+
+.sevenDay {
+  display: none;
+}
+
+.weatherIcon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  padding-top: 10px;
+}
+
+.currentImg {
+  display: none;
+}
+
+.sevenDayTitle,
+.currentTitle {
+  display: none;
+}
+.sevenDayTitle {
+  display: none;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
